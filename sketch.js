@@ -79,7 +79,7 @@ function keyPressed() {
 
 	if (keyCode === LEFT_ARROW) {
 
-    Matter.Body.applyForce(bob1.body, bob1.body.position,{x : -550, y : 50});
+    Matter.Body.applyForce(bob1.body, bob1.body.position,{x : -350, y : 50});
     
    }
    
